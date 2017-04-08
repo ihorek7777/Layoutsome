@@ -215,6 +215,68 @@ header #oval  {
 	background-color: #f3fefe;
 }
 
+#destination #big-line {
+	/* Style for "Destinatio" */
+	position: absolute;
+	top: 68px;
+	left: 236px;
+	width: 375px;
+	height: 52px;
+	font-family: "Chunk Five";
+	font-size: 67px;
+	font-weight: 400;
+	line-height: 35px;
+	
+	/* Text style for "tination" */
+	color: #01a2a6;
+
+	text-align: left;
+}
+
+#destination #big-line span {
+	/* Text style for "Des" */
+	color: #29d9c2;
+}
+
+#destination #little-line {
+	/* Style for "Being arou" */
+	position: absolute;
+	top: 192px;
+	left: 238px;
+	width: 664px;
+	height: 50px;
+	color: #777777;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 35px;
+
+	text-align: left;
+}
+
+#destination #search {
+	position: absolute;
+	top: 308px;
+	left: 234px;
+	width: 236px;
+	height: 37px;
+	border: 1px solid #e8e8e8;
+	border-radius: 20px;
+	background-color: #ffffff;
+}
+
+#destination #search img {
+	float: left;
+	padding: 10px;
+}
+
+#destination #search input {
+	float: left;
+	border: 0;
+	padding: 13px;
+	height: 10px;
+}
+
 
 /* batu */
 
