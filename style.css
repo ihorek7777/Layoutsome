@@ -12,12 +12,15 @@ header {
 	height: 737px;
 }
 
+
+/* ------------------------- menu-header ------------------------ */
 #menu-header {
-	position: fixed;
+	position: absolute;
 	left: 137px;
 	top: 53px;
 	right: 151px;
 	width: 1166px;
+	height: 151px;
 }
 
 #menu-header ul {
@@ -65,7 +68,79 @@ header {
 }
 
 header #oval  {
-	position: fixed;
+	position: absolute;
 	left: 679px;
 	top: 48px;
 }
+
+
+
+/* ------------------------------------group1------------------------------------- */
+
+#group1 {
+	position: absolute;
+	left: 400px;
+	top: 230px;
+	right: 398px;
+	width: 644px;
+	height: 260px;
+
+}
+
+#group1 p {
+	margin: 0 0 26px 0;
+}
+
+#group1 #big-line {
+	/* Style for "LETS GET L" */
+	width: 642px;
+	height: 60px;
+	font-family: "Chunk Five";
+
+	font-size: 80px;
+	font-weight: 400;
+	text-transform: uppercase;
+	/* Text style for "LETS GET" */
+	color: #ffffff;
+	/* Text style for "LOST" */
+	color: #01a2a6;
+}
+
+#group1 #big-line span {
+	color: white;
+}
+
+#group1 #little-line {
+	/* Style for "Malang wil" */
+	width: 644px;
+	height: 53px;
+	color: #fafafa;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 35px;
+}
+
+#group1 button {
+	border-radius: 50px;
+	margin: 21px;
+
+	/* Style for "Shape 5" */
+	width: 222px;
+	height: 74px;
+	background-color: #ffffa6;
+
+	/* Style for "SET ITTINE" */
+	
+	color: #10273d;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
