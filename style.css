@@ -1,5 +1,6 @@
 body {
 	text-align: center;
+	height: 5073px;
 }
 
 * {
@@ -7,27 +8,31 @@ body {
 	margin: 0px;
 }
 
+
+/* --------------------------- header --------------------------------------- */
+
 header {
 	background-color: #9cded9;
 	height: 737px;
+	position: relative;
 }
 
 
-/* ------------------------- menu-header ------------------------ */
-#menu-header {
+/*  nav  */
+header nav {
 	position: absolute;
 	left: 137px;
 	top: 53px;
 	right: 151px;
 	width: 1166px;
-	height: 151px;
+	height: 48px;
 }
 
-#menu-header ul {
+header nav ul {
 	float: right;
 }
 
-#menu-header li {
+header nav li {
 	display: inline-block;
 	list-style: none;
 	padding: 10px 30px 0 30px;
@@ -42,7 +47,7 @@ header {
 	font-weight: 500;
 }
 
-#menu-header p {
+header nav p {
 	float: left;
 
 
@@ -58,12 +63,12 @@ header {
 	font-weight: 700;
 }
 
-#menu-header img {
+header nav img {
 	float: right;
 	padding: 0 0 0 25px;
 }
 
-#menu-header #triangle-header {
+header nav #triangle-header {
 	padding: 18px 0 0 3px;
 }
 
@@ -75,7 +80,7 @@ header #oval  {
 
 
 
-/* ------------------------------------group1------------------------------------- */
+/* group1 */
 
 #group1 {
 	position: absolute;
@@ -139,8 +144,137 @@ header #oval  {
 	text-transform: uppercase;
 }
 
+/* ------------------------------------ about ---------------------------------- */
+
+
+#about {
+	width: 1230px;
+	height: 492px;
+	background: white;
+	position: relative;
+	right: -160px;
+	top: -50px;
+	opacity: 0.9;
+}
+
+
+#about img {
+	position: absolute;
+	top: 120px;
+	left: 52px;
+}
+
+#about #big-line {
+	/* Style for "City of Lo" */
+	width: 344px;
+	height: 60px;
+	font-family: "Chunk Five";
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 35px;
+	
+	/* Text style for "Love" */
+	color: #01a2a6;
+
+	position: absolute;
+	top: 151px;
+	left: 601px;
+}
+
+#about #big-line span{
+	color: #29d9c2;
+}
+
+
+#about #little-line {
+	/* Style for "Malang is" */
+	width: 562px;
+	height: 85px;
+	color: #777777;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 35px;
+
+	position: absolute;
+	left: 599px;
+	top: 275px;
+}
+
+#about p {
+	text-align: left;
+}
 
 
 
+/*-------------------------------------- destination ------------------------------------*/
+
+#destination {
+	height: 1455px;
+	position: relative;
+	background-color: #f3fefe;
+}
 
 
+/* batu */
+
+#destination #batu {
+	/* Style for "Batu" */
+	width: 1170px;
+	height: 517px;
+
+	position: relative;
+	top: 364px;
+	left: 135px;
+
+	background-color: #0a0c11;
+}
+
+
+#destination #batu #right-side {
+
+	width: 482px;
+	height: 517px;
+	opacity: 0.93;
+
+	position: relative;
+	float: right;
+}
+
+#destination #batu #right-side img {
+	position: absolute;
+	top: 50px;
+	left: 43px;
+}
+
+#destination #batu #right-side #big-line {
+	/* Style for "Batu" */
+	width: 55px;
+	height: 23px;
+	color: #01a2a6;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 35px;
+
+	position: absolute;
+	left: 50px;
+	top: 171px;
+}
+
+#destination #batu #right-side #little-line {
+	/* Style for "is a city" */
+	width: 374px;
+	height: 225px;
+	color: #777777;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 35px;
+
+	position: absolute;
+	left: 47px;
+	top: 217px;
+
+	text-align: left;
+}
