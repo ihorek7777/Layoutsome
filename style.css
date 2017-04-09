@@ -14,28 +14,39 @@ body {
 header {
 	background-color: #9cded9;
 	height: 737px;
+	width: 100%;
 	position: relative;
 }
 
 
 /*  nav  */
 header nav {
-	position: absolute;
-	left: 137px;
-	top: 53px;
-	right: 151px;
-	width: 1166px;
+	position: relative;
+	/*left: 137px;*/
+	left: 9.51388889%;
+	top: 39px;
+
+	/*width: 1166px;*/
+	width: 80.9722222%;
 	height: 48px;
 }
 
 header nav ul {
+	/*position: absolute;*/
+	/*left: 46.5%;*/
+	/*left: 37.638888%;*/
 	float: right;
+	padding: 1.2% 0 0 0;
+	width: 43.9108062%;
+
+	text-align: left;
 }
 
 header nav li {
 	display: inline-block;
 	list-style: none;
-	padding: 10px 30px 0 30px;
+	/*padding: 0 30px 0 30px;*/
+	padding: 0 10.71875% 0 0;
 
 	height: 14px;
 	color: #ffffff;
@@ -47,35 +58,66 @@ header nav li {
 	font-weight: 500;
 }
 
+header nav li:last-of-type {
+	padding: 0;
+}
+
+/*
+header nav li:hover {
+	background: url(img/header/oval.png);
+}
+*/
+
+
 header nav p {
 	float: left;
 
-
+	padding: 0.5% 0 0 0;
 	/* Style for "YokNgalam" */
-	width: 154px;
+	width: 10.6944444%;
 	height: 25px;
 	color: #ffffff;
 	font-family: Montserrat;
 	font-size: 25px;
 	/* Text style for "Yok" */
 	font-weight: 400;
+	
+}
+
+header nav p span {
 	/* Text style for "Ngalam" */
 	font-weight: 700;
 }
 
 header nav img {
 	float: right;
-	padding: 0 0 0 25px;
+}
+	
+/*
+header nav #circle-header {
+	position: absolute;
+	left: 86.5277778%;
 }
 
 header nav #triangle-header {
-	padding: 18px 0 0 3px;
+	position: absolute;
+	left: 90%;
+	padding: 1.5% 0 0 0;
+}*/
+
+header nav #circle-header {
+	padding: 0 0 0 4.7169%;
 }
+
+header nav #triangle-header {
+	padding: 19px 0 0 0.6%;
+}
+
 
 header #oval  {
 	position: absolute;
-	left: 679px;
-	top: 48px;
+	/*left: 679px;*/
+	left: 43.8%;
 }
 
 
@@ -84,10 +126,9 @@ header #oval  {
 
 #group1 {
 	position: absolute;
-	left: 400px;
+	left: 27.777778%;
 	top: 230px;
-	right: 398px;
-	width: 644px;
+	width: 44.72%;
 	height: 260px;
 
 }
@@ -148,11 +189,11 @@ header #oval  {
 
 
 #about {
-	width: 1230px;
+	width: 85.41666%;
 	height: 492px;
 	background: white;
 	position: relative;
-	right: -160px;
+	right: -11.111%;
 	top: -50px;
 	opacity: 0.9;
 }
@@ -213,6 +254,7 @@ header #oval  {
 	height: 1455px;
 	position: relative;
 	background-color: #f3fefe;
+	width: 100%;
 }
 
 #destination #big-line {
@@ -282,12 +324,12 @@ header #oval  {
 
 #destination #batu {
 	/* Style for "Batu" */
-	width: 1170px;
+	width: 81.25%;
 	height: 517px;
 
 	position: relative;
 	top: 364px;
-	left: 135px;
+	left: 9.375%;
 
 	background-color: #0a0c11;
 }
