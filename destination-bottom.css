@@ -1,0 +1,185 @@
+@media screen and (min-width: 1100px) {
+	
+	#destination #bromo {
+		width: 58%;
+		margin-right: 2%;
+		height: 350px;
+	}
+
+	#destination #bromo #left-side {
+		width: 40%;
+		float: left;
+		height: 100%;
+	}
+	#destination #bromo #left-side img {
+		margin-top: 8.6%;
+		margin-left: 8.6%;
+	}
+	#destination #bromo #left-side h1 {
+		margin-top: 20px;
+		margin-left: 31px;
+	}
+	#destination #bromo #left-side p {
+		margin-top: 18px;
+		margin-left: 29px;
+		margin-right: 10px;
+	}
+
+	#destination #bromo #right-side {
+		width: 60%;
+		float: right;
+		height: 100%;
+	}
+
+
+	#destination #baidarka {
+		width: 40%;
+		height: 350px;
+	}
+}
+
+
+@media screen and (max-width: 1100px) {
+	
+	#destination #bromo {
+		width: 58%;
+		margin-right: 2%;
+		height: 350px;
+	}
+
+	#destination #bromo #left-side {
+		width: 40%;
+		float: left;
+		height: 100%;
+	}
+	#destination #bromo #left-side img {
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+	#destination #bromo #left-side h1 {
+		margin-top: 4%;
+		margin-left: 5%;
+	}
+	#destination #bromo #left-side p {
+		margin-top: 4%;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+
+	#destination #bromo #right-side {
+		width: 60%;
+		float: right;
+		height: 100%;
+	}
+
+
+	#destination #baidarka {
+		width: 40%;
+		height: 350px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	
+
+	#destination #bromo {
+		width: 100%;
+	}
+	#destination #bromo #left-side {
+		width: 100%;
+		height: 45%;
+		clear: both;
+	}
+	#destination #bromo #left-side img {
+		margin-top: 2%;
+		margin-left: 2em;
+		float: left;
+	}
+	#destination #bromo #left-side h1 {
+		/*display: inline;*/
+		float: left;
+		margin-left: 1.5em;
+	}
+	#destination #bromo #left-side p {
+		margin-top: 2%;
+		margin-left: 2%;
+		margin-right: 2%;
+		float: left;
+	}
+	#destination #bromo #right-side {
+		width: 100%;
+		height: 55%;
+		float: left;
+	}
+	#destination #baidarka {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	#destination #bromo #left-side {
+		height: 22%;
+	}
+	#destination #bromo #right-side {
+		height: 78%;
+	}
+	#destination #left-side p {
+		display: none;
+	}
+}
+
+
+
+#destination #bromo {
+	max-width: 600px;
+	float: left;
+	margin-top: 33px;
+	background: url(./img/destination/background-bromo.jpg);
+	border-radius: 5px;
+}
+
+#destination #bromo #left-side {
+	background-color: white;
+	opacity: 0.8;
+}
+#destination #bromo #left-side img {
+
+}
+#destination #bromo #left-side h1 {
+	color: #01a2a6;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 35px;
+}
+#destination #bromo #left-side p {
+	color: #777777;
+	font-family: Lato;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 400;
+}
+
+#destination #bromo #right-side {
+	background-color: white;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+#destination #bromo #right-side:hover {
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+
+#destination #baidarka {
+	float: right;
+	margin-top: 33px;
+	background: url(./img/destination/background-baidarka.jpg);
+	border-radius: 5px;
+	background-color: white;
+	transition: opacity 0.5s;
+}
+#destination #baidarka:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
