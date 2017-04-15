@@ -134,7 +134,7 @@
 	max-width: 600px;
 	float: left;
 	margin-top: 33px;
-	background: url(./img/destination/background-bromo.jpg);
+	background: url(../img/destination/background-bromo.jpg);
 	border-radius: 5px;
 }
 
@@ -174,7 +174,7 @@
 #destination #baidarka {
 	float: right;
 	margin-top: 33px;
-	background: url(./img/destination/background-baidarka.jpg);
+	background: url(../img/destination/background-baidarka.jpg);
 	border-radius: 5px;
 	background-color: white;
 	transition: opacity 0.5s;
