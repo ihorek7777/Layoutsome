@@ -16,6 +16,12 @@
 	}
 }
 
+@media screen and (max-width: 500px) {
+	#destination {
+		height: 1830px;
+	}
+}
+
 #destination {
 	/*height: 1750px;*/
 	margin-top: 450px;

@@ -19,3 +19,5 @@ button.onclick = () => {
 window.onresize = () => {
 	menu.style = null;
 };
+
+
