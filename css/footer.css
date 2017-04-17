@@ -12,23 +12,37 @@
 
 .links__left-side {
 	float: left;
+	margin-top: 10px;
 }
 .links__left-side__text {
 	display: inline-block;
-	padding: 5px 10px;
+	padding: 0 10px;
 
 	color: #5d5c5c;
 	font-family: Lato;
 	font-size: 1em;
 	font-weight: 400;
+
+	transition: color 0.5s;
+}
+.links__left-side__text:hover {
+	cursor: pointer;
+	color: #01a2a6;
 }
 
 .links__right-side {
 	float: right;
+	margin-top: 10px;
 }
 .links__right-side li {
 	display: inline-block;
-	padding: 0 5px;
+	margin: 0 5px;
+	border-radius: 20px;
+	transition: background 0.5s;
+}
+.links__right-side li:hover {
+	cursor: pointer;
+	background-color: #01a2a6;
 }
 
 .footer__copyright {

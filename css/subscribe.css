@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 950px) {
 	.subscribe {
-		height: 400px;
+		height: 450px;
 	}
 	.right-side__form {
 		position: absolute;
@@ -45,6 +45,9 @@
 }
 
 @media screen and (max-width: 550px) {
+	.subscribe {
+		height: 480px;
+	}
 	.right-side__form {
 		position: absolute;
 		left: -75%;
